@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+struct student{
+  int roll;
+  char b[90];
+  float marks;
+};
+int main()
+{
+    struct student val;
+    val.roll=59;
+    strcpy( val.b,"Vinoth");
+    val.marks=97.5;
+    printf("%d\n",val.roll);
+    printf("%s\n",val.b);
+    printf("%f\n",val.marks);
+}
