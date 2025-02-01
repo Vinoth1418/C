@@ -8,7 +8,7 @@ int main()
 {
    union student val;
    val.a=7;
-   strcpy(val.b,"MSD");
    printf("%d\n",val.a);
+   strcpy(val.b,"MSD");
    printf("%s\n",val.b);
 }
