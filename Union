@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <string.h>
+union student{
+  int a;
+  char b[80];
+};
+int main()
+{
+   union student val;
+   val.a=7;
+   strcpy(val.b,"MSD");
+   printf("%d\n",val.a);
+   printf("%s\n",val.b);
+}
